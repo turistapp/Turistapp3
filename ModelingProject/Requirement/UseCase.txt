@@ -1,0 +1,5 @@
+UseCase: 
+Brugeren henter appen.
+Brugeren vælger musik kategori. 
+Brugeren læser om koncerterne.
+Brugeren bestiller sin billet for sine hårdtjente narkopenge. 

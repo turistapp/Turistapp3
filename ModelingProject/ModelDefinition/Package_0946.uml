@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+  dslVersion="1.0.0.0"
+  Id="d401dbeb-df77-492f-8aa6-a31589636c46"
+  name="ViewModel" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="4223a873-d376-48d5-ae25-0cd87d1c3844"
+        name="MainViewModel"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="2f2a815f-145e-4f2e-9b6c-e2df24a6f123">
+            <classMoniker
+              Id="d7726edb-2ef7-44e0-97e2-4c0b752dc6bb"
+              LastKnownName="INotifyPropertyChanged"
+              LastKnownLocation="ModelingProject.uml" />
+          </dependency>
+        </suppliersInternal>
+        <targetEnds>
+          <association
+            Id="ed1b204d-4a1b-48fa-8518-0699017c1c1c"
+            isDerived="false"
+            sourceEndRoleName="MainViewModel"
+            targetEndRoleName="RelayCommand"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="8232aeb3-f23b-4af5-95fa-57e2d8f0dc9b"
+              LastKnownName="RelayCommand_Homemade"
+              LastKnownLocation="Package_0946.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c4b2d1ad-92cb-4fc0-a124-0ff0ca5d1c19"
+                  name="MainViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="330b471f-1997-4c0e-b4de-2e616772d5aa"
+                  name="RelayCommand"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="e6a7aeb7-3909-4455-916c-12b2a846dce0"
+            isDerived="false"
+            sourceEndRoleName="MainViewModel"
+            targetEndRoleName="OpretUserHandler"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="0cc0a9d3-0386-4d71-b493-d0eff5fd0842"
+              LastKnownName="UserInputHandler"
+              LastKnownLocation="Package_0946.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0427508e-68d7-43b0-b5f5-4c7ee1c09546"
+                  name="MainViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5d9b23aa-9b14-4856-8a1f-c1ee2c326f32"
+                  name="OpretUserHandler"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="fa9b60b3-c0cb-42f4-83e7-9fe76c7aabc5"
+            isDerived="false"
+            sourceEndRoleName="MainViewModel"
+            targetEndRoleName="Personer"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="d6898e9a-6dfc-42a1-bdd2-543b1f074d2c"
+              LastKnownName="User"
+              LastKnownLocation="Package_0951.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9a408768-90df-4a10-a0b0-28345dc98d3b"
+                  name="MainViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1a6961a0-7b68-4e27-9274-28a61b3b6985"
+                  name="Personer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="991d6976-f0e9-4edb-8964-b2e3f3e559f4"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="f1510e6c-7153-4fb1-9413-fe16b2284059"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="b264206b-264b-40d0-a19c-762e62057da4"
+            isDerived="false"
+            sourceEndRoleName="MainViewModel"
+            targetEndRoleName="Koncerter"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="66803363-94f7-4edd-a270-a86dc362755b"
+              LastKnownName="Koncerter"
+              LastKnownLocation="Package_0951.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="af2cf6b1-b595-45be-bf1d-d2c4b103194f"
+                  name="MainViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="544f7b5c-e329-4167-a3b5-4f56e107d7e7"
+                  name="Koncerter"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="9c6a625d-8453-425f-aee8-4377f37eae48"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="33c3f462-afa5-4edc-adff-20a6f131d6f9"
+                      name="Upper"
+                      value="4" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="61a06745-52fc-4157-9cc2-3a75dcef5c84"
+            isDerived="false"
+            sourceEndRoleName="MainViewModel"
+            targetEndRoleName="ObservableCollection&lt;User&gt;"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="5c7a23a8-e8f7-4a7a-b1e1-d26181a81aee"
+              LastKnownName="ObservableCollection&lt;User&gt;"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c1c9442b-efc2-4785-a2af-b85c94ac3abf"
+                  name="MainViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="78a32a8f-11a3-4893-a4fa-917c6075aa1d"
+                  name="ObservableCollection&lt;User&gt;"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="9d594fe6-45f6-4d51-ad43-95934e10e348"
+            name="_users"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="69a8ab9a-5e3b-416c-8763-14536bd183c9"
+                LastKnownName="ObservableCollection"
+                LastKnownLocation="Package_0946.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="942f8539-d099-44b4-a796-55072e137aa1"
+            name="_opretUserHandler"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="0ed24075-95ce-485e-8d64-d89be99c11df"
+            name="_opretUserCommand"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="8232aeb3-f23b-4af5-95fa-57e2d8f0dc9b"
+                LastKnownName="RelayCommand_Homemade"
+                LastKnownLocation="Package_0946.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="bda98a28-2a29-4a4c-bcab-940c61e16fb9"
+            name="SelectedKoncerter"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="acc4771c-d457-4664-92cf-ba89427ed58e"
+                LastKnownName="Koncerter"
+                LastKnownLocation="Package_0946.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="69a8ab9a-5e3b-416c-8763-14536bd183c9"
+        name="ObservableCollection" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ef1669d6-ea78-4a3b-b0b8-5ff383018116"
+        name="Class1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="fc82d7ef-73a1-4300-b6f0-b5f2084fa551"
+        name="Person" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="40fc8a1b-f2fd-4798-a9f2-e095228ec487"
+        name="OpretPersonHandler" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="6e483c65-77f7-42e5-9af9-0a2c618cf1a9"
+        name="RelayCommad" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="18baae50-1a09-4c7c-ac01-eee639acfb46"
+        name="RelayCommand" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="8232aeb3-f23b-4af5-95fa-57e2d8f0dc9b"
+        name="RelayCommand_Homemade"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="0cc0a9d3-0386-4d71-b493-d0eff5fd0842"
+        name="UserInputHandler"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="d17d5251-574e-4038-a7b5-8396d942ad10"
+        name="User" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="acc4771c-d457-4664-92cf-ba89427ed58e"
+        name="Koncerter" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

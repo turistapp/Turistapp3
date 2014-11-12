@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.625, 8.5" name="UseCase">
+  <useCaseModelRootMoniker Id="b92c7e07-c11c-4cb4-9064-0a9dc9eb89bf" />
+  <nestedChildShapes>
+    <useCaseShape Id="42d785d2-4609-4b51-bb6d-a6e81cf80f9c" absoluteBounds="10, 3.625, 1.375, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="a7428637-bd2f-4f14-b764-23927a3d5fa7" LastKnownName="Bestiller billet" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <actorShape Id="4937f98b-f9e5-4af3-a755-46d04bec84fc" absoluteBounds="5.625, 2.75, 0.75, 1.125" isReference="false" heightOffset="0">
+      <actorMoniker Id="ad41d3b6-0ea0-4300-83a2-45c1aefecc2d" LastKnownName="Bruger" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseAssociationConnector edgePoints="[(6.375 : 3.3675); (10.0235822198358 : 3.90262539224258)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="2da0f78c-a65c-4501-bead-66065ddaa4ba" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="4937f98b-f9e5-4af3-a755-46d04bec84fc" />
+        <useCaseShapeMoniker Id="42d785d2-4609-4b51-bb6d-a6e81cf80f9c" />
+      </nodes>
+    </useCaseAssociationConnector>
+  </nestedChildShapes>
+</useCaseDiagram>

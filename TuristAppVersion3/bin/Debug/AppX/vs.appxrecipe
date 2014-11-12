@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DANNY-MSI</Machine>
+    <WindowsUser>Danny</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>0edb5707-7357-4b56-bd7d-2fe0da0eee38</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Danny\Documents\Visual Studio 2013\Projects\TuristAppVersion3\TuristAppVersion3\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>3557BBB95FB8FA030DF41558E2AA5AE95012DBA430C45721807877495CD7BFE2</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>0edb5707-7357-4b56-bd7d-2fe0da0eee38_1.0.0.0_neutral__4c5b9g29w27se</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>0edb5707-7357-4b56-bd7d-2fe0da0eee38_4c5b9g29w27se!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>0edb5707-7357-4b56-bd7d-2fe0da0eee38</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Danny</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Danny\Documents\Visual Studio 2013\Projects\TuristAppVersion3\TuristAppVersion3\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-06T10:00:20.002</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Danny\Documents\Visual Studio 2013\Projects\TuristAppVersion3\TuristAppVersion3\bin\Debug\TuristAppVersion3.exe">
+      <PackagePath>TuristAppVersion3.exe</PackagePath>
+      <Modified>2014-11-06T12:55:39.940</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Danny\Documents\Visual Studio 2013\Projects\TuristAppVersion3\TuristAppVersion3\Assets\Hiphop.jpg">
+      <PackagePath>Assets\Hiphop.jpg</PackagePath>
+      <Modified>2014-10-30T19:01:29.302</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Danny\Documents\Visual Studio 2013\Projects\TuristAppVersion3\TuristAppVersion3\Assets\hiphop1jpeg.jpg">
+      <PackagePath>Assets\hiphop1jpeg.jpg</PackagePath>
+      <Modified>2014-10-30T18:57:54.917</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Danny\Documents\Visual Studio 2013\Projects\TuristAppVersion3\TuristAppVersion3\Assets\Jazz.jpg">
+      <PackagePath>Assets\Jazz.jpg</PackagePath>
+      <Modified>2014-10-30T19:01:29.314</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Danny\Documents\Visual Studio 2013\Projects\TuristAppVersion3\TuristAppVersion3\Assets\jazz1jpeg.jpg">
+      <PackagePath>Assets\jazz1jpeg.jpg</PackagePath>
+      <Modified>2014-10-30T18:57:55.014</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Danny\Documents\Visual Studio 2013\Projects\TuristAppVersion3\TuristAppVersion3\Assets\Pop.jpg">
+      <PackagePath>Assets\Pop.jpg</PackagePath>
+      <Modified>2014-10-30T19:01:29.330</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Danny\Documents\Visual Studio 2013\Projects\TuristAppVersion3\TuristAppVersion3\Assets\pop1jpeg.jpg">
+      <PackagePath>Assets\pop1jpeg.jpg</PackagePath>
+      <Modified>2014-10-30T18:57:55.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Danny\Documents\Visual Studio 2013\Projects\TuristAppVersion3\TuristAppVersion3\Assets\Rock.jpg">
+      <PackagePath>Assets\Rock.jpg</PackagePath>
+      <Modified>2014-10-30T19:01:29.343</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Danny\Documents\Visual Studio 2013\Projects\TuristAppVersion3\TuristAppVersion3\Assets\rock1jpeg.jpg">
+      <PackagePath>Assets\rock1jpeg.jpg</PackagePath>
+      <Modified>2014-10-30T18:57:55.316</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Danny\Documents\Visual Studio 2013\Projects\TuristAppVersion3\TuristAppVersion3\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T04:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Danny\Documents\Visual Studio 2013\Projects\TuristAppVersion3\TuristAppVersion3\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T04:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Danny\Documents\Visual Studio 2013\Projects\TuristAppVersion3\TuristAppVersion3\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T04:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Danny\Documents\Visual Studio 2013\Projects\TuristAppVersion3\TuristAppVersion3\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T04:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Danny\Documents\Visual Studio 2013\Projects\TuristAppVersion3\TuristAppVersion3\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-11-06T10:00:19.601</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Danny\Documents\Visual Studio 2013\Projects\TuristAppVersion3\TuristAppVersion3\bin\Debug\View\ItemDetailPage.xbf">
+      <PackagePath>View\ItemDetailPage.xbf</PackagePath>
+      <Modified>2014-11-06T10:00:19.603</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Danny\Documents\Visual Studio 2013\Projects\TuristAppVersion3\TuristAppVersion3\bin\Debug\View\MainPage.xbf">
+      <PackagePath>View\MainPage.xbf</PackagePath>
+      <Modified>2014-11-06T12:55:39.764</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Danny\Documents\Visual Studio 2013\Projects\TuristAppVersion3\TuristAppVersion3\bin\Debug\View\UserInputPage.xbf">
+      <PackagePath>View\UserInputPage.xbf</PackagePath>
+      <Modified>2014-11-06T12:27:33.633</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Danny\Documents\Visual Studio 2013\Projects\TuristAppVersion3\TuristAppVersion3\bin\Debug\TuristAppVersion3.xr.xml">
+      <PackagePath>TuristAppVersion3.xr.xml</PackagePath>
+      <Modified>2014-11-06T12:55:39.750</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Danny\Documents\Visual Studio 2013\Projects\TuristAppVersion3\TuristAppVersion3\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-11-06T10:00:19.833</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

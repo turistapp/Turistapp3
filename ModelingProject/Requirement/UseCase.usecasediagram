@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm11="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="b92c7e07-c11c-4cb4-9064-0a9dc9eb89bf" name="UseCase" linkedPackageId="1b1f9d2c-6753-45cc-9b53-3a1e0412fb64" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <useCase Id="a7428637-bd2f-4f14-b764-23927a3d5fa7" name="Bestiller billet" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d156bc1c-b559-4936-921b-22a1bcf4563e" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="ad41d3b6-0ea0-4300-83a2-45c1aefecc2d" name="Bruger" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7ab257f9-fb6d-42b2-b84d-2da4fcdc8260" />
+        <targetEnds>
+          <association Id="2da0f78c-a65c-4501-bead-66065ddaa4ba" isDerived="false" sourceEndRoleName="Bruger" targetEndRoleName="Bestiller billet" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="a7428637-bd2f-4f14-b764-23927a3d5fa7" LastKnownName="Bestiller billet" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="742c196b-097d-415d-8e3b-72d53714c577" name="Bruger" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1669e428-dd5b-4f02-adf9-5898e7c6940c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="54262cc3-3b02-4e7a-a82e-daba7d31362b" name="Bestiller billet" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1ab828a2-42e9-4a9b-8bc2-ebc20d6bba63" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e6431053-1a76-4314-93a0-4eeb06f2a9d3" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="1b1f9d2c-6753-45cc-9b53-3a1e0412fb64" name="ModelingProject">
+    <elementDefinition Id="3647d3ff-485f-4129-a248-e63e4ee5eea0" />
+    <profileInstances>
+      <packageHasProfileInstances Id="9cc09157-0336-4936-9747-9a514414bb98">
+        <profileInstance Id="7395d63c-af0e-476f-8923-d07743a72099" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="3f5969ec-a43c-41f6-9c96-58f358819952">
+        <profileInstance Id="fa0ad422-1871-44d8-8aae-b1d126d6d8a0" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>
