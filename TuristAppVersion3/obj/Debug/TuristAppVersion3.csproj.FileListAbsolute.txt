@@ -40,3 +40,45 @@ c:\users\danny\documents\visual studio 2013\Projects\TuristAppVersion3\TuristApp
 c:\users\danny\documents\visual studio 2013\Projects\TuristAppVersion3\TuristAppVersion3\obj\Debug\View\UserInputPage.g.cs
 c:\users\danny\documents\visual studio 2013\Projects\TuristAppVersion3\TuristAppVersion3\obj\Debug\View\UserInputPage.xaml
 c:\users\danny\documents\visual studio 2013\Projects\TuristAppVersion3\TuristAppVersion3\obj\Debug\View\UserInputPage.xbf
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\bin\Debug\App.xbf
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\bin\Debug\View\ItemDetailPage.xbf
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\bin\Debug\View\MainPage.xbf
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\bin\Debug\View\UserInputPage.xbf
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\bin\Debug\TuristAppVersion3.xr.xml
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\bin\Debug\TuristAppVersion3.exe
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\bin\Debug\TuristAppVersion3.pdb
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\bin\Debug\resources.pri
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\bin\Debug\AppxManifest.xml
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\bin\Debug\TuristAppVersion3.build.appxrecipe
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\obj\Debug\App.g.i.cs
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\obj\Debug\App.g.cs
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\obj\Debug\View\ItemDetailPage.g.i.cs
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\obj\Debug\View\ItemDetailPage.g.cs
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\obj\Debug\View\MainPage.g.i.cs
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\obj\Debug\View\MainPage.g.cs
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\obj\Debug\View\UserInputPage.g.i.cs
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\obj\Debug\View\UserInputPage.g.cs
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\obj\Debug\App.xaml
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\obj\Debug\View\ItemDetailPage.xaml
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\obj\Debug\View\MainPage.xaml
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\obj\Debug\View\UserInputPage.xaml
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\obj\Debug\App.xbf
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\obj\Debug\View\ItemDetailPage.xbf
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\obj\Debug\View\MainPage.xbf
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\obj\Debug\View\UserInputPage.xbf
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\obj\Debug\TuristAppVersion3.exe
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\obj\Debug\TuristAppVersion3.pdb
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\obj\Debug\priconfig.xml
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\obj\Debug\priconfig.xml.intermediate
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\obj\Debug\layout.resfiles
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\obj\Debug\layout.resfiles.intermediate
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\obj\Debug\resources.resfiles
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\obj\Debug\resources.resfiles.intermediate
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\obj\Debug\pri.resfiles
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\obj\Debug\pri.resfiles.intermediate
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\obj\Debug\qualifiers.txt
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Nicklas\Documents\Graphics\Turistapp3\TuristAppVersion3\obj\Debug\ProjectArchitectures.txt
