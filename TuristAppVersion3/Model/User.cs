@@ -11,7 +11,7 @@ using TuristAppVersion3.ViewModel;
 namespace TuristAppVersion3.Model
 {
     
-
+    //blåbær
     public class User
     {
 
